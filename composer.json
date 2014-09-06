@@ -1,0 +1,25 @@
+{
+    "name": "steelzz/oxy-test",
+    "description": "Oxy test package to help unit testing",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Tomas Bartkus",
+            "email": "to.bartkus@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "Oxy\\Test" : "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/steelzz/OxyCore"
+        }
+    ],
+    "require": {
+        "steelzz/oxy-core": "dev-master"
+    }
+}
